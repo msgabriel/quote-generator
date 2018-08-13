@@ -13,6 +13,7 @@ a {
 body {
   font-family: 'PT Serif', serif;
   text-align: center;
+  letter-spacing: 1px;
   background: #212121;
   color: #fff;
   
@@ -53,7 +54,8 @@ cite {
 .btn {
   border: none;
   color: #fff;
-  font: 12px Arial, sans-serif;
+  font: 11px Arial, sans-serif;
+  letter-spacing: 2px;
   text-transform: uppercase;
   cursor: pointer;
   padding: 8px 15px;
@@ -61,13 +63,19 @@ cite {
 }
 
 #generate {
-  background: #3FCB87;
+  background: transparent;
+  border: 2px solid #3FCB87;
+  border-radius: 4px;
+}
+#generate:hover {
+  box-shadow: 1px 1px 20px #3FCB8730;
 }
 
 #twitter {
-  background: #1da1f2;
+  background: transparent;
+  border: 2px solid #1da1f2;
+  border-radius: 4px;
 }
-
-#facebook {
-  background: #3b5998;
+#twitter:hover {
+  box-shadow: 1px 1px 20px #1da1f230;
 }
